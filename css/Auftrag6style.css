@@ -1,0 +1,97 @@
+body{   
+    background-color: #8c8c8c;
+    color: white;
+    background: url('../images/clouds.jpg');
+    height: 100%;
+    overflow: scroll;
+    background-attachment: fixed;
+    background-repeat: no-repeat;       
+    background-size: cover;  
+    background-position: center;  
+   
+ 
+ 
+					
+}
+
+
+#header > p > span {
+  color: #d90000;
+    
+
+}
+
+p.infobox{
+    color: white;
+    background-color: #8c8c8c;
+    border: 3px solid #ecf7dd;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+section#container {
+    background-color: white;
+    color: black;
+    width: 70%;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+#logo {
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 100%;
+    max-width: 420px;
+}
+
+address {
+            text-align: center; 
+            font-size: 80%; 
+            font-style: normal;	 
+            letter-spacing: 2px;
+            line-height: 1.5;
+        }
+
+#header {
+    background: url('../images/top-secret.gif');
+    background-position: top right;
+    background-size: 140px;
+    background-repeat: no-repeat;
+
+
+}
+
+a:hover, a:focus {
+    border-bottom: 1px solid #d90000;
+}
+
+a:active {
+    color: white;
+    background-color: #d90000;
+}
+
+#textbereich {
+    height: 75px;
+
+}
+
+#textbereich a {
+    color: green;
+    border-bottom: 1px dotted green;
+}
+
+#textbereich a:hover,
+#textbereich a:focus {
+    border-bottom: 1px solid green;
+}
+
+#textbereich a:active {
+    color: white;
+    background-color: green;
+}
+
+#textbereich a:visited {
+    color:   #444;
+}

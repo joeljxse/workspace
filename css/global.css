@@ -1,0 +1,19 @@
+.padding{
+
+    padding: 20px;
+    
+}
+
+body {
+    font-family: Roboto, Calibri, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+h1 {font-size: 150%;}
+h2 {font-size: 130%;}
+
+a   { text-decoration: none}
+a:link{color: #d90000}
+a:visited{color: #cc6666}
+.center { text-align: center}
