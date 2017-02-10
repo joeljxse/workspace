@@ -1,12 +1,36 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+
 body {
     background: darkturquoise;
+    
+}
+
+h1 {
+    font-family: 'Bahiana';
+    font-size:  38pt;
 }
 
 #Joel {
     height: 300px;
     width: 450px;
+    border-radius: 20px;
+    border: 1px solid black;
 }
+
 
 .article1{
     background: mediumturquoise;
+     height: 700px;
+}
+
+#wrapper {
+
+    max-width: 75%;
+    margin: 30px auto;
+}
+
+#navigation {
+    max-width: 75%;
+    margin: 30px auto;
 }
