@@ -34,3 +34,58 @@ h1 {
     max-width: 75%;
     margin: 30px auto;
 }
+
+#hyperlink a {
+    
+    text-decoration: none;
+    
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: black;
+
+}
+
+#hyperlink {
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn {
+      
+    padding: 9px 20px;
+    border-radius: 3px;
+    opacity: 0.9; /* 10% Transparenz */
+}
+
+.btn-primary {
+    background-color: #7e57c2;
+    color: white;   
+}
+.btn-settings {
+    background-color: lightcoral;
+    color: white;
+}
+
+.makeBlock {
+    display: block;
+}
+
+.makeInline {
+    display: inline;
+}
+.text-center {
+    text-align: center;
+}
+
+.marRight5 {
+    margin-right: 5px !important;
+}
+.marLeft12 {
+    margin-left: 12px;
+}
+

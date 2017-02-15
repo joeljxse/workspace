@@ -1,0 +1,17 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+
+body {
+    background: darkturquoise;
+    
+}
+ 
+#navigation {
+    max-width: 75%;
+    margin: 30px auto;
+} 
+#navigation a{
+    text-decoration: none;
+    color: black;
+    
+}

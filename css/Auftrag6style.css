@@ -99,3 +99,13 @@ a:active {
 #textbereich a:visited {
     color:   #444;
 }
+
+#inlineblock ul { margin-top: 30px; }
+						#inlineblock li { 
+						    display: inline;
+						    list-style-type: none;
+						    color: white;
+						    background-color: blue;
+						    margin-left: 2rem;
+						    padding: 10px;
+						}
