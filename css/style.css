@@ -19,9 +19,13 @@ h1 {
 }
 
 
-.article1{
+section{
     background: mediumturquoise;
-     height: 700px;
+   
+}
+
+#personalienliste li {
+    list-style-type: none;
 }
 
 #wrapper {
@@ -30,57 +34,19 @@ h1 {
     margin: 30px auto;
 }
 
+.padding0 {
+    padding: 0;
+}
 #navigation {
     max-width: 75%;
     margin: 30px auto;
-}
-
-#hyperlink a {
-    
-    text-decoration: none;
-    
-}
-
-.nav-btn {
-    text-decoration: none;
-    color: black;
-
-}
-
-#hyperlink {
-    text-align: center;
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-.btn {
       
-    padding: 9px 20px;
-    border-radius: 3px;
-    opacity: 0.9; /* 10% Transparenz */
 }
 
-.btn-primary {
-    background-color: #7e57c2;
-    color: white;   
-}
-.btn-settings {
-    background-color: lightcoral;
-    color: white;
+.center{
+    text-align: center
 }
 
-.makeBlock {
-    display: block;
-}
-
-.makeInline {
-    display: inline;
-}
-.text-center {
-    text-align: center;
-}
 
 .marRight5 {
     margin-right: 5px !important;
@@ -89,3 +55,109 @@ h1 {
     margin-left: 12px;
 }
 
+
+address {
+            margin-top: 20px;
+	    }
+
+ul li {
+    list-style-type: square
+}
+
+ol li {
+    list-style-type: decimal;
+    
+}
+ol ol li {
+    list-style-type: lower-alpha
+}
+
+/*nav {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    background-color: #00CED1;
+    text-align: right;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+}
+nav ul {
+    padding: 0;
+}
+nav a{
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover, nav a:focus {
+    color: darkcyan;
+    background-color: darkblue;
+    border-bottom-color: #fff
+}*/
+
+nav {
+    
+    border-bottom: 1 px thin #0266C8;
+    height: 30px;
+}
+nav li {
+		display: inline;
+        list-style-type: none;
+        }
+
+nav a {
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border: 1px thin #0266C8;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:focus, nav a:active{
+    border-bottom: 1px solid #fff;
+    border-top: 4px solid #0266C8;
+}
+
+nav ul {
+    padding: 0;
+}
+
+
+p {
+    line-height: 1.5;
+}
+
+section {
+    
+    
+    max-width: 75%;
+    
+}
+
+#box {
+    box-sizing: border-box;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 1rem 1rem 2rem 10rem;
+    border: 4px solid olivedrab; 
+}
+
+.box1 {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin:  1rem;
+    border:  2px solid violet;
+    margin: 1rem;
+
+}
+
+#home #navi01 a, #kontakt #navi02 a, #aboutme #navi03 a {
+    color: black;
+    background-color: paleturquoise;
+    border-bottom: white;
+}
