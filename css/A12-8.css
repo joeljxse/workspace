@@ -20,36 +20,76 @@
     margin: 0;
     padding: 0;
 }
-
+#header {
+    position: fixed;
+    width: 100%;
+}
 #nav {
 
     background-color: #3F51B5;
     color: white;   
     font-family: 'PT Sans', sans-serif;
-    padding: 1rem;
-    position: relative;
+    padding: 1rem 0.5rem;
+    position: relative; 
     
 }
 
+body{
+    background-color: #F5F5F5;
+    
+}
+
+main {
+    background-image: url("../images/city.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
 #nav-left {
     
-    text-align: left;
+    
+    font-size: 1.1em;
     
 }
 
 #nav-right  {
     position: absolute;
     right: 0;
+    font-size: 0.9em;
     
-    text-align: right;
 }
 
+#nav-left i {
+    
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
 
+#nav-right i {
+    
+    margin-left: 0.5rem;
+    margin-right: 0;
+    font-size: 1.1em;
+
+}
 
 #nav span {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
+
+
+#content {
+    border-radius: 3px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding: 1rem 3rem;
+    
+    
+}
 
 
