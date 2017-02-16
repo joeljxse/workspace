@@ -66,3 +66,33 @@ nav a:active {
     background-color: black;
     border-bottom-color: #fff;
 }
+
+div#inlineblock {
+    display: none;
+}
+
+#first, #second, #third {
+    background-color: #9c27b0;
+    border: 3px solid darkorange;
+    margin: 15px 0;
+    border-radius: 2px;
+    color: white;
+    width: 20%;
+    
+
+}
+#first {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #f3c600;
+}
+.padding {
+    padding: 20px;
+}
+
+#position {
+    background-color: gray;
+    position: relative;
+    
+}
