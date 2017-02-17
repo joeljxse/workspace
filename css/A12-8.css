@@ -1,6 +1,6 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Chathura|Indie+Flower|Lobster|PT+Sans|Sansita');
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 /* 
     Chathura -- Dezent, Schlicht, Elegant
     Amatic SC --- very tumblr, handschrift
@@ -14,82 +14,193 @@
     font-family: 'FONTNAME', sans-serif;   
     }
 
-*/
-
-.spacing0 {
-    margin: 0;
-    padding: 0;
-}
-#header {
-    position: fixed;
-    width: 100%;
-}
-#nav {
-
-    background-color: #3F51B5;
-    color: white;   
+ background-color: #3F51B5;
+    color: white;
     font-family: 'PT Sans', sans-serif;
     padding: 1rem 0.5rem;
-    position: relative; 
+    width: 14%;
+*/
+
+h1, p {
+    font-family: 'Noto Sans', sans-serif;
+}
+#header {
+  
+    width: 100%;
+}
+
+#nav {
+    background-color: #3F51B5;
+    color: white;
+    font-family: 'PT Sans',sans-serif;
+    text-align: left;
+
     
+
+}
+
+#nav ul {
+    margin: 0 0;
+    padding-left: 0;
+    
+}
+#nav li {
+    list-style-type: none;
+    border-bottom:1px solid paleturquoise;
 }
 
 body{
-    background-color: #F5F5F5;
+    background-color: lightgray;
     
 }
 
-main {
+#ribbonpage main {
     background-image: url("../images/city.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-top: 3.5%;
 }
 
+    
 
-#nav-left {
+
+#nav a, #searchbar{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
     
+    color: white;
+}
+
+#searchbar {
+    border: floralwhite 1px solid !important;
+    flex-grow: 2;  
+    background-color: floralwhite;
+    border-radius: 3px;
     
-    font-size: 1.1em;
+   
+}
+input {
+    border: none;
     
 }
 
-#nav-right  {
-    position: absolute;
-    right: 0;
-    font-size: 0.9em;
-    
-}
-
-#nav-left i {
-    
-    margin-left: 0;
-    margin-right: 0.5rem;
-}
-
-#nav-right i {
-    
-    margin-left: 0.5rem;
-    margin-right: 0;
-    font-size: 1.1em;
-
-}
-
-#nav span {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-
-
-
-#content {
+ #ribbonpage #content {
     border-radius: 3px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    width: 55%;
+    width: 90%;
     padding: 1rem 3rem;
     
     
 }
 
 
+ #nav a:hover ,#nav  a:focus {
+    background-color: lightskyblue;
+    
+}
+
+
+
+#defaultpage #image  {
+    background-image: url('../images/azalea.jpg');
+    width: 55%;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5%;
+    background-size: 100%;
+  
+    
+}
+
+
+
+
+.mar0 {
+    margin: 0;
+}
+
+
+#defaultpage main {
+    padding-top: 3.5%;
+}
+
+#defaultpage #content {
+    border-radius: 3px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 1rem 3rem;
+    
+}
+
+
+#defaultpage
+
+
+ #defaultpage h1{
+     margin: 0;
+     color: black;
+ }
+
+
+ @media screen and (min-width: 768px){
+
+
+
+#nav {
+     background-color: #3F51B5;
+    
+    
+     width: 100%;
+    padding: 0.7rem;
+}
+#nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 2%;
+    align-content: space-between;
+    
+}
+
+
+#spacing {
+    flex-grow: 5;
+}
+    #nav li{
+         border-bottom: none;
+    }
+     #ribbonpage #content {
+    border-radius: 3px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1rem 3rem;
+    
+}   
+
+#defaultpage #content {
+    border-radius: 3px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1rem 3rem;
+    text-align: justify;
+}
+
+
+
+    
+}
+
+
+
+ 

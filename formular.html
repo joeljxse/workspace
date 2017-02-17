@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/formular.css" rel="stylesheet">
+    </head>
+    <body >
+    <div class="flex fx-column text-white bg-gray mar0">
+
+            <form class="mar0">
+
+                <div class="bg-blue">
+                    <label for="name">Nachname</label>
+                    <input type="text" name="name" placeholder="Nachname">
+                </div>
+                <div class="bg-blue">
+                    <label for="vorname">Vorname</label>
+                    <input type="text" name="vorname" placeholder="Vorname">
+                </div>
+                
+                <div class="bg-blue">
+                    <label for="geburtdatum">Geburtdatum</label>
+                    <input type="date" name="geburtdatum" placeholder="Geburtdatum" required>
+                </div>
+                <div class="bg-blue">
+                    <label for="Hobby">Hobby</label>
+                    <select title="input">
+                        <option>Test1</option>
+                        <option>dasf</option>
+                    </select>
+                </div>
+                <div class="bg-blue">
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" placeholder="Email"></div>
+                <div class="bg-blue">
+                    <label for="plz">PLZ</label>
+                    <input type="number" name="PLZ" step="1" min="1000" max="9999" placeholder="PLZ">
+                </div>
+                <div>
+                    <label for="submit"></label>
+                    <input type="submit" name="submit" > </div> 
+                
+                <div id="radio">
+                        
+                        <input type="radio" name="gender" value="male" checked>Male<br>
+                        <input type="radio" name="gender" value="female">Female<br>
+                        <input type="radio" name="gender" value="other">Other<br>
+                </div>
+
+
+            </form>
+
+
+
+    </div>
+    </body>
+</html>
+
+
